@@ -1,0 +1,15 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Car {
+  id: ID
+  plate: String
+  chassi: String
+  price: String
+}
+
+type Query {
+  get(id: String!): Car!
+  list: [Car!]!
+}
